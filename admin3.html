@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang admin</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="all.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-warning fixed-top">
+    <a class="navbar-brand" href="#">Trang admin </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active ">
+          <a class="nav-link" href="#">Dashboard <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Thống kê</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sản phẩm</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Đơn hàng</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Đăng xuất</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Dashboard</h1>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Thống kê bán hàng</h5>
+              <p class="card-text">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>Sản phẩm</th>
+                      <th>Số lượng</th>
+                      <th>Doanh thu</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Hamburger</td>
+                      <td>100</td>
+                      <td>2.000.000</td>
+                    </tr>
+                    <tr>
+                      <td>Sandwich</td>
+                      <td>50</td>
+                      <td>1.000.000</td>
+                    </tr>
+                    <tr>
+                      <td>Gà rán</td>
+                      <td>20</td>
+                      <td>400.000</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4 bg-warning text-white-50">
+    <div class="container">
+      <p class="m-0 text-center text-white">CẢM ƠN QUÝ KHÁCH RẤT NHÌU </p>
+    </div>
+  </footer>
+
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
